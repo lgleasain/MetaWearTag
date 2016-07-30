@@ -1,4 +1,5 @@
 {
     "Foundation.framework": 1,
-    "CoreData.framework": 1
+    "CoreData.framework": 1,
+    "CoreBluetooth.framework": 1
 }

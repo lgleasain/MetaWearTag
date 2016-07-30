@@ -18,6 +18,9 @@
     <feature name="MWDevice">
         <param name="ios-package" value="MWDevice" />
     </feature>
+    <feature name="BLE">
+        <param name="ios-package" value="EVOBLE" />
+    </feature>
     <name>Meta Gnome Tag</name>
     <description>
     Digital tag game with MetaWear    </description>
