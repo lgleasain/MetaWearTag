@@ -2,145 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e846af2-9a0f-452e-9335-76c013e296e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/outline/README.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/css/animate.css" afterPath="$PROJECT_DIR$/www/css/animate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/css/icomoon.css" afterPath="$PROJECT_DIR$/www/css/icomoon.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/css/magnific-popup.css" afterPath="$PROJECT_DIR$/www/css/magnific-popup.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/css/owl.carousel.min.css" afterPath="$PROJECT_DIR$/www/css/owl.carousel.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/css/owl.theme.default.min.css" afterPath="$PROJECT_DIR$/www/css/owl.theme.default.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/css/simple-line-icons.css" afterPath="$PROJECT_DIR$/www/css/simple-line-icons.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/css/style.css.map" afterPath="$PROJECT_DIR$/www/css/style.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/www/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/www/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/www/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/www/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/www/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon.eot" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/fonts/icomoon.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon.svg" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/fonts/icomoon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon.ttf" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/fonts/icomoon.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon.woff" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/fonts/icomoon.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/Read Me.txt" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/Read Me.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/demo-files/demo.css" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/demo-files/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/demo-files/demo.js" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/demo-files/demo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/demo.html" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/selection.json" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/selection.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/icomoon/icomoon/style.css" afterPath="$PROJECT_DIR$/www/fonts/icomoon/icomoon/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/simple-line-icons/Simple-Line-Icons.eot" afterPath="$PROJECT_DIR$/www/fonts/simple-line-icons/Simple-Line-Icons.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/simple-line-icons/Simple-Line-Icons.svg" afterPath="$PROJECT_DIR$/www/fonts/simple-line-icons/Simple-Line-Icons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/simple-line-icons/Simple-Line-Icons.ttf" afterPath="$PROJECT_DIR$/www/fonts/simple-line-icons/Simple-Line-Icons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/simple-line-icons/Simple-Line-Icons.woff" afterPath="$PROJECT_DIR$/www/fonts/simple-line-icons/Simple-Line-Icons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/fonts/simple-line-icons/Simple-Line-Icons.woff2" afterPath="$PROJECT_DIR$/www/fonts/simple-line-icons/Simple-Line-Icons.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/bg_1.jpg" afterPath="$PROJECT_DIR$/www/images/bg_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/bg_2.jpg" afterPath="$PROJECT_DIR$/www/images/bg_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/client_1.png" afterPath="$PROJECT_DIR$/www/images/client_1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/client_2.png" afterPath="$PROJECT_DIR$/www/images/client_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/client_3.png" afterPath="$PROJECT_DIR$/www/images/client_3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/client_4.png" afterPath="$PROJECT_DIR$/www/images/client_4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/client_5.png" afterPath="$PROJECT_DIR$/www/images/client_5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/hero_bg.jpg" afterPath="$PROJECT_DIR$/www/images/hero_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/iphone_6_3.png" afterPath="$PROJECT_DIR$/www/images/iphone_6_3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/iphone_blank_2.png" afterPath="$PROJECT_DIR$/www/images/iphone_blank_2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/product_1.jpg" afterPath="$PROJECT_DIR$/www/images/product_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/product_2.jpg" afterPath="$PROJECT_DIR$/www/images/product_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/product_3.jpg" afterPath="$PROJECT_DIR$/www/images/product_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/product_4.jpg" afterPath="$PROJECT_DIR$/www/images/product_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/user.jpg" afterPath="$PROJECT_DIR$/www/images/user.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/user_2.jpg" afterPath="$PROJECT_DIR$/www/images/user_2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/images/user_3.jpg" afterPath="$PROJECT_DIR$/www/images/user_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/www/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/jquery.countTo.js" afterPath="$PROJECT_DIR$/www/js/jquery.countTo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/www/js/jquery.easing.1.3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/www/js/jquery.magnific-popup.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/jquery.min.js" afterPath="$PROJECT_DIR$/www/js/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/www/js/jquery.waypoints.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/main.js" afterPath="$PROJECT_DIR$/www/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/modernizr-2.6.2.min.js" afterPath="$PROJECT_DIR$/www/js/modernizr-2.6.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/www/js/owl.carousel.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/js/respond.min.js" afterPath="$PROJECT_DIR$/www/js/respond.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/_bootstrap-compass.scss" afterPath="$PROJECT_DIR$/www/sass/_bootstrap-compass.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/_bootstrap-mincer.scss" afterPath="$PROJECT_DIR$/www/sass/_bootstrap-mincer.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/_bootstrap-sprockets.scss" afterPath="$PROJECT_DIR$/www/sass/_bootstrap-sprockets.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/_bootstrap.scss" afterPath="$PROJECT_DIR$/www/sass/_bootstrap.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_alerts.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_alerts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_badges.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_badges.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_breadcrumbs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_button-groups.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_button-groups.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_buttons.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_carousel.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_carousel.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_close.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_close.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_code.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_code.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_component-animations.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_component-animations.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_dropdowns.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_dropdowns.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_forms.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_glyphicons.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_glyphicons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_grid.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_input-groups.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_input-groups.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_jumbotron.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_jumbotron.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_labels.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_labels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_list-group.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_list-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_media.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_media.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_mixins.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_modals.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_modals.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_navbar.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_navbar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_navs.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_navs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_normalize.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_normalize.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_pager.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_pager.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_pagination.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_panels.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_panels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_popovers.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_popovers.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_print.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_print.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_progress-bars.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_progress-bars.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_responsive-embed.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_responsive-embed.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_responsive-utilities.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_responsive-utilities.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_scaffolding.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_scaffolding.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_tables.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_tables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_theme.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_theme.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_thumbnails.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_thumbnails.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_tooltip.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_tooltip.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_type.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_type.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_utilities.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_utilities.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/_wells.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/_wells.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_alerts.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_alerts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_background-variant.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_border-radius.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_border-radius.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_center-block.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_center-block.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_clearfix.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_forms.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_gradients.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_grid-framework.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_grid.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_hide-text.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_hide-text.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_image.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_image.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_labels.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_labels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_list-group.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_nav-divider.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_nav-divider.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_nav-vertical-align.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_nav-vertical-align.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_opacity.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_opacity.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_pagination.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_pagination.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_panels.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_panels.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_progress-bar.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_progress-bar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_reset-filter.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_reset-filter.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_reset-text.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_resize.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_resize.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_responsive-visibility.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_responsive-visibility.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_size.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_size.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_tab-focus.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_tab-focus.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_table-row.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_table-row.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_text-emphasis.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_text-emphasis.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_text-overflow.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_text-overflow.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/bootstrap/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/www/sass/bootstrap/mixins/_vendor-prefixes.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/style.scss" afterPath="$PROJECT_DIR$/www/sass/style.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/outline/sass/untitled" afterPath="$PROJECT_DIR$/www/sass/untitled" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
     </list>
     <ignored path="cordovaTest.iws" />
@@ -165,8 +28,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="484">
+              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index copy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index copy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="662" column="0" selection-start-line="662" selection-start-column="0" selection-end-line="677" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -359,24 +232,24 @@
       <updated>1469848947636</updated>
       <workItem from="1469848948787" duration="711000" />
       <workItem from="1469896775080" duration="1630000" />
-      <workItem from="1469900407741" duration="2270000" />
+      <workItem from="1469900407741" duration="2510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4611000" />
+    <option name="totallyTimeSpent" value="4851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1291" height="763" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31259844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31259844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43879473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43815202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -428,10 +301,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/index copy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="662" column="0" selection-start-line="662" selection-start-column="0" selection-end-line="677" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="484">
+          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
           <folding />
         </state>
       </provider>
