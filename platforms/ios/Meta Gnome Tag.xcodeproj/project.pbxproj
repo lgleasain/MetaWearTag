@@ -34,6 +34,8 @@
 		03F69F4A6DC9440494F51072 /* MWGyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = E2563A1E6CCF4BD692FE79D9 /* MWGyroscope.m */; };
 		BF334E86B502427DB4A24177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB687B9BB834AD9ACC763F3 /* Foundation.framework */; };
 		1B23AA152BAF41229D6E8BDF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C059C18B70344B9B26F5D8C /* CoreData.framework */; };
+		32D4B8C2B0C6445B93113BCA /* EVOBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C6F1AF4914CE6853F1F72 /* EVOBLE.m */; };
+		542B3979C0FD4A14AF3FE1BC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE378928470C4C62A3F2DBE4 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,9 @@
 		261F4500DDEC456A9429D15F /* MWGyroscope.h */ = {isa = PBXFileReference; name = "MWGyroscope.h"; path = "com.mbientlab.metawear/MWGyroscope.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		4AB687B9BB834AD9ACC763F3 /* Foundation.framework */ = {isa = PBXFileReference; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		6C059C18B70344B9B26F5D8C /* CoreData.framework */ = {isa = PBXFileReference; name = "CoreData.framework"; path = "System/Library/Frameworks/CoreData.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		926C6F1AF4914CE6853F1F72 /* EVOBLE.m */ = {isa = PBXFileReference; name = "EVOBLE.m"; path = "cordova-plugin-ble/EVOBLE.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		84EBDD0375A14563AFF675A7 /* EVOBLE.h */ = {isa = PBXFileReference; name = "EVOBLE.h"; path = "cordova-plugin-ble/EVOBLE.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DE378928470C4C62A3F2DBE4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; name = "CoreBluetooth.framework"; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +146,7 @@
 				C022B19334604E2DAEC74B52 /* libMetawear-iOSAPI.a in Frameworks */,
 				BF334E86B502427DB4A24177 /* Foundation.framework in Frameworks */,
 				1B23AA152BAF41229D6E8BDF /* CoreData.framework in Frameworks */,
+				542B3979C0FD4A14AF3FE1BC /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +219,7 @@
 				32ECEEE63F58410A85A28C6D /* libMetawear-iOSAPI.a */,
 				4AB687B9BB834AD9ACC763F3 /* Foundation.framework */,
 				6C059C18B70344B9B26F5D8C /* CoreData.framework */,
+				DE378928470C4C62A3F2DBE4 /* CoreBluetooth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,6 +299,8 @@
 				0157C3EC86824345A5F5ABD2 /* MWMultiChannelTemperature.h */,
 				959DCC4E03864A2FA694D772 /* StepCounter.h */,
 				261F4500DDEC456A9429D15F /* MWGyroscope.h */,
+				926C6F1AF4914CE6853F1F72 /* EVOBLE.m */,
+				84EBDD0375A14563AFF675A7 /* EVOBLE.h */,
 			);
 			name = Plugins;
 			path = "Meta Gnome Tag/Plugins";
@@ -419,6 +428,7 @@
 				C1B88E1450004E099E5217F9 /* MWMultiChannelTemperature.m in Sources */,
 				669098C447AF4F8CA90E8A9C /* StepCounter.m in Sources */,
 				03F69F4A6DC9440494F51072 /* MWGyroscope.m in Sources */,
+				32D4B8C2B0C6445B93113BCA /* EVOBLE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

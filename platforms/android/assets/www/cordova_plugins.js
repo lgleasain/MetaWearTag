@@ -6,13 +6,29 @@ module.exports = [
         "clobbers": [
             "metawear.mwdevice"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-ble/ble.js",
+        "id": "cordova-plugin-ble.BLE",
+        "clobbers": [
+            "evothings.ble"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-eddystone/js/eddystone-plugin.js",
+        "id": "cordova-plugin-eddystone.eddystoneplugin",
+        "clobbers": [
+            "evothings.eddystone"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.2.2",
-    "com.mbientlab.metawear": "0.2.15"
+    "com.mbientlab.metawear": "0.2.15",
+    "cordova-plugin-ble": "1.4.3",
+    "cordova-plugin-eddystone": "1.3.0"
 };
 // BOTTOM OF METADATA
 });
