@@ -241,6 +241,10 @@
              alert("ERROR : " + message);
          }
 
+firebase.database().ref('beacon/').on('value', function(snapshot) {
+         console.log(snapshot.val())
+  //updateStarCount(postElement, snapshot.val());
+});
         </script>
 
     </head>
