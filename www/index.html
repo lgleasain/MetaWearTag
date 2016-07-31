@@ -60,38 +60,39 @@
              <![endif]-->
 
         <title>Meta Gnome</title>
+
         <script>
-         var uUIDAddress = "";
+            var uUIDAddress = "";
 
-         var scanSuccess = function(result){
-             var returnString = "";
-             var uUIDRSSI= -999999;
-             for (var key in result) {
-                 if(uUIDAddress === "" || (uUIDAddress !== "" && Number(result[key].rssi) > uUIDRSSI)){
-                     console.log(result[key])
-                         uUIDAddress = result[key].address;
-                     uUIDRSSI = result[key].rssi
-                 }
-                 var br ='<br/>';
-                 returnString = returnString + " " +
-                                      "<strong>Address:</strong>"+result[key].address + " -> " + result[key].rssi + br;
+            var scanSuccess = function(result){
+                var returnString = "";
+                var uUIDRSSI= -999999;
+                for (var key in result) {
+                    if(uUIDAddress === "" || (uUIDAddress !== "" && Number(result[key].rssi) > uUIDRSSI)){
+                        console.log(result[key])
+                        uUIDAddress = result[key].address;
+                        uUIDRSSI = result[key].rssi
+                    }
+                    var br ='<br/>';
+                    returnString = returnString + " " +
+                            "<strong>Address:</strong>"+result[key].address + " -> " + result[key].rssi + br;
 
-             }
-             console.log(result);
-             console.log(returnString);
-             $("#ScanResults").html(returnString);
-         }
+                }
+                console.log(result);
+                console.log(returnString);
+                $("#ScanResults").html(returnString);
+            }
 
-         var failure = function(result){
-             var message = "";
-             if(result.status !== undefined){
-                 message = result.status;
-             }else{
-                 message = result;
-             }
-             console.log(result);
-             alert("ERROR : " + message);
-         }
+            var failure = function(result){
+                var message = "";
+                if(result.status !== undefined){
+                    message = result.status;
+                }else{
+                    message = result;
+                }
+                console.log(result);
+                alert("ERROR : " + message);
+            }
 
 
          var connected = function(result){
@@ -229,12 +230,14 @@
          }
 
         </script>
+
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready">
+        <div class="app" style="width:375px !important;">
+            <!-- <h1>Apache Cordova</h1> -->
+            <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
+
                 <br/>
                 <br/>
                 <button id="Scan" title="" onclick="metawear.mwdevice.scanForDevices(scanSuccess, failure)">Scan For Devices</button>
@@ -243,7 +246,11 @@
                 <div id="our_beacons"></div>
                 <button id="connect" title="" onclick="metawear.mwdevice.connect('FE:96:45:76:C9:7B', connected, failure)">Connect</button>
                 
+
+                <a href="connect.html"><p class="event received">PLAY</p></a>
+
             </div>
+                <!-- <h1>Let's build something awesome</h1> -->
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="Device.js"></script>
