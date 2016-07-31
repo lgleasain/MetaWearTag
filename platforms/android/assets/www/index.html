@@ -28,7 +28,6 @@
              * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
              * Enable inline JS: add 'unsafe-inline' to default-src
            -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval' http://*.jquery.com ; style-src 'self' 'unsafe-inline' http://*.jquery.com ; media-src *">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -60,39 +59,43 @@
              <![endif]-->
 
         <title>Meta Gnome</title>
-
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
         <script>
-         var uUIDAddress = "";
+            var uUIDAddress = "";
 
-         var scanSuccess = function(result){
-             var returnString = "";
-             var uUIDRSSI= -999999;
-             for (var key in result) {
-                 if(uUIDAddress === "" || (uUIDAddress !== "" && Number(result[key].rssi) > uUIDRSSI)){
-                     console.log(result[key])
-                         uUIDAddress = result[key].address;
-                     uUIDRSSI = result[key].rssi
-                 }
-                 var br ='<br/>';
-                 returnString = returnString + " " +
-                                      "<strong>Address:</strong>"+result[key].address + " -> " + result[key].rssi + br;
+            var scanSuccess = function(result){
+                
+  firebase.database().ref('beacon/' + '666').set({
+    state: 'IT'  });
 
-             }
-             console.log(result);
-             console.log(returnString);
-             $("#ScanResults").html(returnString);
-         }
+                var returnString = "";
+                var uUIDRSSI= -999999;
+                for (var key in result) {
+                    if(uUIDAddress === "" || (uUIDAddress !== "" && Number(result[key].rssi) > uUIDRSSI)){
+                        console.log(result[key])
+                        uUIDAddress = result[key].address;
+                        uUIDRSSI = result[key].rssi
+                    }
+                    var br ='<br/>';
+                    returnString = returnString + " " +
+                            "<strong>Address:</strong>"+result[key].address + " -> " + result[key].rssi + br;
 
-         var failure = function(result){
-             var message = "";
-             if(result.status !== undefined){
-                 message = result.status;
-             }else{
-                 message = result;
-             }
-             console.log(result);
-             alert("ERROR : " + message);
-         }
+                }
+                console.log(result);
+                console.log(returnString);
+                $("#ScanResults").html(returnString);
+            }
+
+            var failure = function(result){
+                var message = "";
+                if(result.status !== undefined){
+                    message = result.status;
+                }else{
+                    message = result;
+                }
+                console.log(result);
+                alert("ERROR : " + message);
+            }
 
 
          var connected = function(result){
