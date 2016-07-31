@@ -13,7 +13,7 @@
     <key>CFBundleIcons~ipad</key>
     <dict/>
     <key>CFBundleIdentifier</key>
-    <string>io.cordova.hellocordova79</string>
+    <string>io.cordova.hellocordova</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -39,5 +39,9 @@
     <string/>
     <key>UIRequiresFullScreen</key>
     <true/>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>bluetooth-central</string>
+    </array>
   </dict>
 </plist>
