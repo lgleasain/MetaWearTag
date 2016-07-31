@@ -241,9 +241,19 @@
              alert("ERROR : " + message);
          }
 
+         // allow this to be selected based on the users beacon
+var myId = 666;
+
 firebase.database().ref('beacon/').on('value', function(snapshot) {
          console.log(snapshot.val())
+             var keyval = 666
+             console.log(snapshot.val()[keyval])
+             if(snapshot.val()[keyval].state === 'IT'){
+                 console.log('evil changed')
+                     //flash device red
+             }
   //updateStarCount(postElement, snapshot.val());
+             //if your id
 });
         </script>
 
