@@ -62,11 +62,11 @@
         <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
         <script>
             var uUIDAddress = "";
-
+            //Metawear scanning call
             var scanSuccess = function(result){
                 var returnString = "";
                 var uUIDRSSI= -999999;
-                var GnomeName = "Zookmadge";
+                var GnomeName = "JeromeTheGnome";
                 //Hard code name and paring
                 //var GnomeName = ["Roywinkle", "Zookmadge","JeromeTheGnome"];
 
@@ -83,37 +83,36 @@
 
                 }
 
-                //console.log(result);
-                //console.log(returnString);
                 $("#ScanResults").html(returnString);
             }
-            //pairing code
+
+            //MetaWear pairing code start
 
             var initializeConnect = function(uUIDAddress){
-               //drop any exisiting
+                //drop any existing paired metawear
                 metawear.mwdevice.disconnect();
+
                 metawear.mwdevice.connect(uUIDAddress, connectedCallback, errorCallback);
 
             }
 
             var initializeCallback = function(result){
-                initialized = true;
                 metawear.mwdevice.connect(uUIDAddress, connectedCallback, errorCallback);
             }
+
             var connectedCallback = function(result){
 
                 if(result === 'CONNECTED'){
-
-                    $("#"+uUIDAddress).text(" Zookmadge READY");
+                    //Hardcoded grome name and beacon display for Hack DEMO
+                    $("#"+uUIDAddress).text(" Roywinkle READY  Beacon 16");
                     metawear.mwdevice.playLED({channel: 'BLUE',
                         riseTime: 750,
                         pulseDuration: 2000,
                         repeatCount: -1, highTime: 500,
                         fallTime: 750, lowIntensity: 0,
                         highIntensity: 31})
-                    alert(uUIDAddress);
+                        // alert(uUIDAddress);
                     evothings.eddystone.startScan(beaconSuccess, beaconFailure);
-
                 }
 
                 // alert("Status: " + result);
@@ -125,8 +124,7 @@
             }
 
 
-            //Begin Beacon code
-
+            //MetaWear Failure RSSI failure
 
             var failure = function(result){
                 var message = "";
@@ -208,13 +206,8 @@
              return result;
          }
 
-
-
-
-
-         var beacons = {}     
-
-         function printBeacons(){
+        var beacons = {}
+        function printBeacons(){
              var beaconsString = "";
              for (var key in beacons){
                  var beacon = beacons[key];
@@ -231,22 +224,24 @@
                  beaconsString = beaconsString + htmlBeacon;
              }
 
-             document.querySelector('#our_beacons').innerHTML = beaconsString;
+            document.querySelector('#our_beacons').innerHTML = beaconsString;
 
-         }
+        }
          
          var beaconSuccess = function(result){
              //console.log(result);
              beacons[result.address] = result
              //printBeacons();
              console.log("|" + uint8ArrayToString(result.bid)+"|")
-             var beacon1 = "00 00 00 00 00 25 ";
-             var beacon2 = "00 00 00 00 00 16 ";
-             var beason3 = "00 00 00 00 01 23 ";
+             //Hardcoded beacon IDS
+             var beacon25 = "00 00 00 00 00 25 ";
+             var beacon16 = "00 00 00 00 00 16 ";
+             var beason123 = "00 00 00 00 01 23 ";
 
-             if(uint8ArrayToString(result.bid) === beacon2){
+             if(uint8ArrayToString(result.bid) === beacon16){
                  console.log("found the beacon!!!!!!!!!!!!");
                  //alert("found the beacon!!!!!!!!!!!!");
+
                  if(result.rssi > -70){
                      metawear.mwdevice.stopLED();
                      metawear.mwdevice.playLED({channel: 'RED',
@@ -255,6 +250,8 @@
                                                 repeatCount: -1, highTime: 500,
                                                 fallTime: 750, lowIntensity: 0,
                                                 highIntensity: 31})
+                     //add firebase call to change states
+
                  } else {
                      metawear.mwdevice.stopLED();
                      metawear.mwdevice.playLED({channel: 'GREEN',
@@ -263,19 +260,18 @@
                                                 repeatCount: -1, highTime: 500,
                                                 fallTime: 750, lowIntensity: 0,
                                                 highIntensity: 31})
- 
                  }
              }
          }
 
         // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyD8WQtN2kel8qZed8PEa-TN2ZAc69TkgFo",
-    authDomain: "gnometag.firebaseapp.com",
-    databaseURL: "https://gnometag.firebaseio.com",
-    storageBucket: "gnometag.appspot.com",
-  };
-  firebase.initializeApp(config);
+          var config = {
+            apiKey: "AIzaSyD8WQtN2kel8qZed8PEa-TN2ZAc69TkgFo",
+            authDomain: "gnometag.firebaseapp.com",
+            databaseURL: "https://gnometag.firebaseio.com",
+            storageBucket: "gnometag.appspot.com",
+          };
+        firebase.initializeApp(config);
 
          var beaconFailure = function(result){
              var message = "";
@@ -289,18 +285,18 @@
          }
 
          // allow this to be selected based on the users beacon
-var myId = 666;
+            var myId = 16;
 
-firebase.database().ref('beacon/').on('value', function(snapshot) {
-         console.log(snapshot.val())
-             var keyval = 666
-             console.log(snapshot.val()[keyval])
-             if(snapshot.val()[keyval].state === 'IT'){
-                 console.log('evil changed')
-                     //flash device red
+        firebase.database().ref('beacon/').on('value', function(snapshot) {
+                 console.log(snapshot.val())
+                     var keyval = 16
+                     console.log(snapshot.val()[keyval])
+                     if(snapshot.val()[keyval].state === 'IT'){
+                         console.log('evil changed');
+                         //TODO  update MetaWear flash device red
              }
-  //updateStarCount(postElement, snapshot.val());
-             //if your id
+        //TODO updateStarCount(postElement, snapshot.val());
+
 });
         </script>
 
@@ -320,18 +316,12 @@ firebase.database().ref('beacon/').on('value', function(snapshot) {
 
                 <div id="deviceready">
                     <br><br><br>
-                <button id="Scan" title="" onclick="metawear.mwdevice.scanForDevices(scanSuccess, failure)">Scan For Devices</button>
+                <button id="Scan" title="" onclick="metawear.mwdevice.scanForDevices(scanSuccess, failure)">Scan for Gnomes</button>
                 <div id="ScanResults"></div>
                     <br><br>
-                <!--<button id="ScanBeacon" title="" onclick="evothings.eddystone.startScan(beaconSuccess, beaconFailure)">Scan Beacons</button>-->
-                <!--<div id="our_beacons"></div>-->
-                    <!--<br><br>-->
-                <!--<button id="connect" title="" onclick="metawear.mwdevice.connect('FE:96:45:76:C9:7B', connected, failure)">Connect</button>-->
 
-                <a href="connect.html"><p class="event received">PLAY</p></a>
 
             </div>
-                <!-- <h1>Let's build something awesome</h1> -->
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="Device.js"></script>

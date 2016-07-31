@@ -66,7 +66,7 @@
             var scanSuccess = function(result){
                 var returnString = "";
                 var uUIDRSSI= -999999;
-                var GnomeName = "Zookmadge";
+                var GnomeName = "JeromeTheGnome";
                 //Hard code name and paring
                 //var GnomeName = ["Roywinkle", "Zookmadge","JeromeTheGnome"];
 
@@ -104,14 +104,14 @@
 
                 if(result === 'CONNECTED'){
 
-                    $("#"+uUIDAddress).text(" Zookmadge READY");
+                    $("#"+uUIDAddress).text(" Roywinkle READY  Beacon 16");
                     metawear.mwdevice.playLED({channel: 'BLUE',
                         riseTime: 750,
                         pulseDuration: 2000,
                         repeatCount: -1, highTime: 500,
                         fallTime: 750, lowIntensity: 0,
                         highIntensity: 31})
-                    alert(uUIDAddress);
+                   // alert(uUIDAddress);
                     evothings.eddystone.startScan(beaconSuccess, beaconFailure);
 
                 }
@@ -240,11 +240,11 @@
              beacons[result.address] = result
              //printBeacons();
              console.log("|" + uint8ArrayToString(result.bid)+"|")
-             var beacon1 = "00 00 00 00 00 25 ";
-             var beacon2 = "00 00 00 00 00 16 ";
-             var beason3 = "00 00 00 00 01 23 ";
+             var beacon25 = "00 00 00 00 00 25 ";
+             var beacon16 = "00 00 00 00 00 16 ";
+             var beason123 = "00 00 00 00 01 23 ";
 
-             if(uint8ArrayToString(result.bid) === beacon2){
+             if(uint8ArrayToString(result.bid) === beacon16){
                  console.log("found the beacon!!!!!!!!!!!!");
                  //alert("found the beacon!!!!!!!!!!!!");
                  if(result.rssi > -70){
@@ -320,7 +320,7 @@ firebase.database().ref('beacon/').on('value', function(snapshot) {
 
                 <div id="deviceready">
                     <br><br><br>
-                <button id="Scan" title="" onclick="metawear.mwdevice.scanForDevices(scanSuccess, failure)">Scan For Devices</button>
+                <button id="Scan" title="" onclick="metawear.mwdevice.scanForDevices(scanSuccess, failure)">Scan for Gnomes</button>
                 <div id="ScanResults"></div>
                     <br><br>
                 <!--<button id="ScanBeacon" title="" onclick="evothings.eddystone.startScan(beaconSuccess, beaconFailure)">Scan Beacons</button>-->
@@ -328,7 +328,6 @@ firebase.database().ref('beacon/').on('value', function(snapshot) {
                     <!--<br><br>-->
                 <!--<button id="connect" title="" onclick="metawear.mwdevice.connect('FE:96:45:76:C9:7B', connected, failure)">Connect</button>-->
 
-                <a href="connect.html"><p class="event received">PLAY</p></a>
 
             </div>
                 <!-- <h1>Let's build something awesome</h1> -->
