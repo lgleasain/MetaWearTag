@@ -217,6 +217,15 @@
              }
          }
 
+        // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD8WQtN2kel8qZed8PEa-TN2ZAc69TkgFo",
+    authDomain: "gnometag.firebaseapp.com",
+    databaseURL: "https://gnometag.firebaseio.com",
+    storageBucket: "gnometag.appspot.com",
+  };
+  firebase.initializeApp(config);
+
          var beaconFailure = function(result){
              var message = "";
              if(result.status !== undefined){

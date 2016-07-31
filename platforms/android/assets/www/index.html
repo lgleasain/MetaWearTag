@@ -192,7 +192,7 @@
          var beaconSuccess = function(result){
              //console.log(result);
              beacons[result.address] = result
-             printBeacons();
+             //printBeacons();
              console.log("|" + uint8ArrayToString(result.bid)+"|")
              if(uint8ArrayToString(result.bid) === "00 00 00 00 00 25 "){
                  console.log("found the beacon!!!!!!!!!!!!");
@@ -216,6 +216,15 @@
                  }
              }
          }
+
+        // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD8WQtN2kel8qZed8PEa-TN2ZAc69TkgFo",
+    authDomain: "gnometag.firebaseapp.com",
+    databaseURL: "https://gnometag.firebaseio.com",
+    storageBucket: "gnometag.appspot.com",
+  };
+  firebase.initializeApp(config);
 
          var beaconFailure = function(result){
              var message = "";
