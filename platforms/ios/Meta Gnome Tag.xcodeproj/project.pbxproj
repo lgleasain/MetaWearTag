@@ -5,37 +5,35 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		03F69F4A6DC9440494F51072 /* MWGyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = E2563A1E6CCF4BD692FE79D9 /* MWGyroscope.m */; };
+		0BF81316A96E40CD9A00651E /* MWAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E926218DD9C4E1291CDE079 /* MWAccelerometer.m */; };
+		0D7EAB67229F460192553392 /* LEDModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 651AAC6ACECA496F8EA9D171 /* LEDModule.m */; };
+		1A508989993849CAB2FC2D33 /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF56A8FD5D47DEBA94DE19 /* BFCancellationToken.m */; };
+		1B23AA152BAF41229D6E8BDF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C059C18B70344B9B26F5D8C /* CoreData.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		29F9CC13B7794437B9E891DE /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D85730B32444DA4B69ABFA7 /* BFTask.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
-		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
-		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
-		C022B19334604E2DAEC74B52 /* libMetawear-iOSAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ECEEE63F58410A85A28C6D /* libMetawear-iOSAPI.a */; };
+		32D4B8C2B0C6445B93113BCA /* EVOBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C6F1AF4914CE6853F1F72 /* EVOBLE.m */; };
+		34B8309E77E64B76999ACC04 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ACABE29C05F340D0B3DF17B2 /* BFExecutor.m */; };
+		37C3073F5014452D8D27AFBD /* RSSI.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C927AB46C24A5092D9803B /* RSSI.m */; };
+		4622DDF035474E1C909A19C0 /* MWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B93ED4CB324D95A5035248 /* MWDevice.m */; };
+		542B3979C0FD4A14AF3FE1BC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE378928470C4C62A3F2DBE4 /* CoreBluetooth.framework */; };
+		669098C447AF4F8CA90E8A9C /* StepCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D02CAF20C554FB5B6E5BC16 /* StepCounter.m */; };
+		6918A8C799DD404DB9AFFA4E /* BatteryLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE002E16EE4BD98BE7421A /* BatteryLevel.m */; };
 		8540001DC649406782F54268 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF7BE6A4174B1BA5ECD99D /* Bolts.m */; };
-		1A508989993849CAB2FC2D33 /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DF56A8FD5D47DEBA94DE19 /* BFCancellationToken.m */; };
 		8FE40658CA9A4CC99F2F195D /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BA16DF6214594AA7A3A39 /* BFCancellationTokenRegistration.m */; };
 		9D1E36B493F3491597700DDC /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C5C1393894AAFAD494978 /* BFCancellationTokenSource.m */; };
-		34B8309E77E64B76999ACC04 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ACABE29C05F340D0B3DF17B2 /* BFExecutor.m */; };
-		29F9CC13B7794437B9E891DE /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D85730B32444DA4B69ABFA7 /* BFTask.m */; };
-		ED76BD627690485C96FF097D /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A65475CB5FDE4E6A8018F9A0 /* BFTaskCompletionSource.m */; };
-		4622DDF035474E1C909A19C0 /* MWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B93ED4CB324D95A5035248 /* MWDevice.m */; };
-		D14EE00F18154DA0BD1F9F0B /* MWSupportedModules.m in Sources */ = {isa = PBXBuildFile; fileRef = 159AEC9C117C405BBBD411A1 /* MWSupportedModules.m */; };
-		37C3073F5014452D8D27AFBD /* RSSI.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C927AB46C24A5092D9803B /* RSSI.m */; };
-		0D7EAB67229F460192553392 /* LEDModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 651AAC6ACECA496F8EA9D171 /* LEDModule.m */; };
-		6918A8C799DD404DB9AFFA4E /* BatteryLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAE002E16EE4BD98BE7421A /* BatteryLevel.m */; };
-		0BF81316A96E40CD9A00651E /* MWAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E926218DD9C4E1291CDE079 /* MWAccelerometer.m */; };
-		C1B88E1450004E099E5217F9 /* MWMultiChannelTemperature.m in Sources */ = {isa = PBXBuildFile; fileRef = A13A692F74BD4FDB8B4E33A2 /* MWMultiChannelTemperature.m */; };
-		669098C447AF4F8CA90E8A9C /* StepCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D02CAF20C554FB5B6E5BC16 /* StepCounter.m */; };
-		03F69F4A6DC9440494F51072 /* MWGyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = E2563A1E6CCF4BD692FE79D9 /* MWGyroscope.m */; };
 		BF334E86B502427DB4A24177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB687B9BB834AD9ACC763F3 /* Foundation.framework */; };
-		1B23AA152BAF41229D6E8BDF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C059C18B70344B9B26F5D8C /* CoreData.framework */; };
-		32D4B8C2B0C6445B93113BCA /* EVOBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C6F1AF4914CE6853F1F72 /* EVOBLE.m */; };
-		542B3979C0FD4A14AF3FE1BC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE378928470C4C62A3F2DBE4 /* CoreBluetooth.framework */; };
+		C022B19334604E2DAEC74B52 /* libMetawear-iOSAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ECEEE63F58410A85A28C6D /* libMetawear-iOSAPI.a */; };
+		C1B88E1450004E099E5217F9 /* MWMultiChannelTemperature.m in Sources */ = {isa = PBXBuildFile; fileRef = A13A692F74BD4FDB8B4E33A2 /* MWMultiChannelTemperature.m */; };
+		D14EE00F18154DA0BD1F9F0B /* MWSupportedModules.m in Sources */ = {isa = PBXBuildFile; fileRef = 159AEC9C117C405BBBD411A1 /* MWSupportedModules.m */; };
+		ED76BD627690485C96FF097D /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A65475CB5FDE4E6A8018F9A0 /* BFTaskCompletionSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,85 +54,85 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0157C3EC86824345A5F5ABD2 /* MWMultiChannelTemperature.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MWMultiChannelTemperature.h; path = com.mbientlab.metawear/MWMultiChannelTemperature.h; sourceTree = "<group>"; };
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Meta Gnome Tag/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		1359E1EDE5BA47B799A4F1DA /* MBLGyro.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLGyro.h; path = com.mbientlab.metawear/MBLGyro.h; sourceTree = "<group>"; };
+		137C5C1393894AAFAD494978 /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = com.mbientlab.metawear/BFCancellationTokenSource.m; sourceTree = "<group>"; };
+		159AEC9C117C405BBBD411A1 /* MWSupportedModules.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MWSupportedModules.m; path = com.mbientlab.metawear/MWSupportedModules.m; sourceTree = "<group>"; };
+		160C7763BCDF4325B55FFF1E /* MBLDataSample.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLDataSample.h; path = com.mbientlab.metawear/MBLDataSample.h; sourceTree = "<group>"; };
+		17245D09B33248299D99EACC /* MBLAccelerometerData.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerData.h; path = com.mbientlab.metawear/MBLAccelerometerData.h; sourceTree = "<group>"; };
+		184DE012EB194183995057D9 /* MBLTemperature.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLTemperature.h; path = com.mbientlab.metawear/MBLTemperature.h; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Meta Gnome Tag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meta Gnome Tag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AA1F3ACD104841939146D9 /* MBLConstants.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLConstants.h; path = com.mbientlab.metawear/MBLConstants.h; sourceTree = "<group>"; };
+		261F4500DDEC456A9429D15F /* MWGyroscope.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MWGyroscope.h; path = com.mbientlab.metawear/MWGyroscope.h; sourceTree = "<group>"; };
+		275A0ECCD7BA46098E8380AC /* MBLExternalThermistor.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLExternalThermistor.h; path = com.mbientlab.metawear/MBLExternalThermistor.h; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29C927AB46C24A5092D9803B /* RSSI.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RSSI.m; path = com.mbientlab.metawear/RSSI.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = cordova/build-debug.xcconfig; sourceTree = SOURCE_ROOT; };
-		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = cordova/build-release.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* Meta Gnome Tag-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Meta Gnome Tag-Prefix.pch"; sourceTree = "<group>"; };
+		32ECEEE63F58410A85A28C6D /* libMetawear-iOSAPI.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; name = "libMetawear-iOSAPI.a"; path = "Meta Gnome Tag/Plugins/com.mbientlab.metawear/libMetawear-iOSAPI.a"; sourceTree = "<group>"; };
+		334C2FABCFFF448EB2FEFAAC /* MBLRegister.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLRegister.h; path = com.mbientlab.metawear/MBLRegister.h; sourceTree = "<group>"; };
+		3964E36D33194CF3A2C5953F /* BFExecutor.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = com.mbientlab.metawear/BFExecutor.h; sourceTree = "<group>"; };
+		3CAE002E16EE4BD98BE7421A /* BatteryLevel.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BatteryLevel.m; path = com.mbientlab.metawear/BatteryLevel.m; sourceTree = "<group>"; };
+		3D02CAF20C554FB5B6E5BC16 /* StepCounter.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = StepCounter.m; path = com.mbientlab.metawear/StepCounter.m; sourceTree = "<group>"; };
+		3D85730B32444DA4B69ABFA7 /* BFTask.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = com.mbientlab.metawear/BFTask.m; sourceTree = "<group>"; };
+		3E926218DD9C4E1291CDE079 /* MWAccelerometer.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MWAccelerometer.m; path = com.mbientlab.metawear/MWAccelerometer.m; sourceTree = "<group>"; };
+		49BE024D1E0948CF9746AB83 /* LEDModule.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = LEDModule.h; path = com.mbientlab.metawear/LEDModule.h; sourceTree = "<group>"; };
+		4AB687B9BB834AD9ACC763F3 /* Foundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FEF7BE6A4174B1BA5ECD99D /* Bolts.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = com.mbientlab.metawear/Bolts.m; sourceTree = "<group>"; };
+		52DEB76A9BDB40F5AA1BF6E0 /* Bolts.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = com.mbientlab.metawear/Bolts.h; sourceTree = "<group>"; };
+		551B7BBD520E4480992784D6 /* BoltsVersion.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = com.mbientlab.metawear/BoltsVersion.h; sourceTree = "<group>"; };
+		5FBAA6AA8CFC4281AB59414A /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = com.mbientlab.metawear/BFCancellationTokenSource.h; sourceTree = "<group>"; };
+		616BE3EA335A475CBAF1105E /* MBLModule.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLModule.h; path = com.mbientlab.metawear/MBLModule.h; sourceTree = "<group>"; };
+		651AAC6ACECA496F8EA9D171 /* LEDModule.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = LEDModule.m; path = com.mbientlab.metawear/LEDModule.m; sourceTree = "<group>"; };
+		6C059C18B70344B9B26F5D8C /* CoreData.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F5CEA86A6FB4676899D2DF2 /* MBLMetaWearManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLMetaWearManager.h; path = com.mbientlab.metawear/MBLMetaWearManager.h; sourceTree = "<group>"; };
+		74689DB431B04E468C136452 /* MBLMetaWear.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLMetaWear.h; path = com.mbientlab.metawear/MBLMetaWear.h; sourceTree = "<group>"; };
+		7ADEEF4311934CEDA6CFEFFA /* BFTask.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = com.mbientlab.metawear/BFTask.h; sourceTree = "<group>"; };
+		7C55C3CBD7DB48838C0A597D /* MBLEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLEvent.h; path = com.mbientlab.metawear/MBLEvent.h; sourceTree = "<group>"; };
+		84EBDD0375A14563AFF675A7 /* EVOBLE.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = EVOBLE.h; path = "cordova-plugin-ble/EVOBLE.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Meta Gnome Tag-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Meta Gnome Tag-Info.plist"; path = "Meta Gnome Tag/Meta Gnome Tag-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		926C6F1AF4914CE6853F1F72 /* EVOBLE.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = EVOBLE.m; path = "cordova-plugin-ble/EVOBLE.m"; sourceTree = "<group>"; };
+		92DCF28439BE4BDC9D5F29A0 /* MWAccelerometer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MWAccelerometer.h; path = com.mbientlab.metawear/MWAccelerometer.h; sourceTree = "<group>"; };
+		94D2E209B21145D1A8B8A284 /* MBLLED.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLLED.h; path = com.mbientlab.metawear/MBLLED.h; sourceTree = "<group>"; };
+		959DCC4E03864A2FA694D772 /* StepCounter.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = StepCounter.h; path = com.mbientlab.metawear/StepCounter.h; sourceTree = "<group>"; };
+		98576C89940F49F79365D450 /* MBLNumericData.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLNumericData.h; path = com.mbientlab.metawear/MBLNumericData.h; sourceTree = "<group>"; };
+		99DF56A8FD5D47DEBA94DE19 /* BFCancellationToken.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = com.mbientlab.metawear/BFCancellationToken.m; sourceTree = "<group>"; };
+		A13A692F74BD4FDB8B4E33A2 /* MWMultiChannelTemperature.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MWMultiChannelTemperature.m; path = com.mbientlab.metawear/MWMultiChannelTemperature.m; sourceTree = "<group>"; };
+		A1CC468717574109AF495C29 /* RSSI.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RSSI.h; path = com.mbientlab.metawear/RSSI.h; sourceTree = "<group>"; };
+		A65475CB5FDE4E6A8018F9A0 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = com.mbientlab.metawear/BFTaskCompletionSource.m; sourceTree = "<group>"; };
+		AAC19F6517A544C5BA854C5A /* BFTask+MBLExtensions.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "BFTask+MBLExtensions.h"; path = "com.mbientlab.metawear/BFTask+MBLExtensions.h"; sourceTree = "<group>"; };
+		AAF2743141AB44E2B9DA9CEF /* MBLData.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLData.h; path = com.mbientlab.metawear/MBLData.h; sourceTree = "<group>"; };
+		ACABE29C05F340D0B3DF17B2 /* BFExecutor.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = com.mbientlab.metawear/BFExecutor.m; sourceTree = "<group>"; };
+		AEA85FB9A6D147D89DAB08E8 /* BatteryLevel.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BatteryLevel.h; path = com.mbientlab.metawear/BatteryLevel.h; sourceTree = "<group>"; };
+		B29B95BADFE041D8A5C7C023 /* BFCancellationToken.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = com.mbientlab.metawear/BFCancellationToken.h; sourceTree = "<group>"; };
+		B3B93ED4CB324D95A5035248 /* MWDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MWDevice.m; path = com.mbientlab.metawear/MWDevice.m; sourceTree = "<group>"; };
+		B46C2E31C5B9486696390645 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = com.mbientlab.metawear/BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		B5467C0F9BCD4211949EF719 /* MWSupportedModules.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MWSupportedModules.h; path = com.mbientlab.metawear/MWSupportedModules.h; sourceTree = "<group>"; };
+		BB9054DF46CE4157B1EF1317 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = com.mbientlab.metawear/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		C2CA507657874E9D9F4F98CB /* bmi160.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = bmi160.h; path = com.mbientlab.metawear/bmi160.h; sourceTree = "<group>"; };
+		C908EEAA24F34918B96174BD /* MBLOrientationData.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLOrientationData.h; path = com.mbientlab.metawear/MBLOrientationData.h; sourceTree = "<group>"; };
+		C92BCFB98A1D4595B87AB4A1 /* MBLAccelerometerBMI160.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBMI160.h; path = com.mbientlab.metawear/MBLAccelerometerBMI160.h; sourceTree = "<group>"; };
+		D72FFDF64126460D876D7EFD /* MBLGyroData.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLGyroData.h; path = com.mbientlab.metawear/MBLGyroData.h; sourceTree = "<group>"; };
+		D9F9ED9E4775492398A08FDB /* MWDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MWDevice.h; path = com.mbientlab.metawear/MWDevice.h; sourceTree = "<group>"; };
+		DE378928470C4C62A3F2DBE4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E22BA16DF6214594AA7A3A39 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = com.mbientlab.metawear/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		E2563A1E6CCF4BD692FE79D9 /* MWGyroscope.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MWGyroscope.m; path = com.mbientlab.metawear/MWGyroscope.m; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EE863CAEBFA540E9B120D9AC /* MBLAccelerometer.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometer.h; path = com.mbientlab.metawear/MBLAccelerometer.h; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Meta Gnome Tag/config.xml"; sourceTree = "<group>"; };
-		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		32ECEEE63F58410A85A28C6D /* libMetawear-iOSAPI.a */ = {isa = PBXFileReference; name = "libMetawear-iOSAPI.a"; path = "Meta Gnome Tag/Plugins/com.mbientlab.metawear/libMetawear-iOSAPI.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		4FEF7BE6A4174B1BA5ECD99D /* Bolts.m */ = {isa = PBXFileReference; name = "Bolts.m"; path = "com.mbientlab.metawear/Bolts.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		99DF56A8FD5D47DEBA94DE19 /* BFCancellationToken.m */ = {isa = PBXFileReference; name = "BFCancellationToken.m"; path = "com.mbientlab.metawear/BFCancellationToken.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E22BA16DF6214594AA7A3A39 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; name = "BFCancellationTokenRegistration.m"; path = "com.mbientlab.metawear/BFCancellationTokenRegistration.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		137C5C1393894AAFAD494978 /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; name = "BFCancellationTokenSource.m"; path = "com.mbientlab.metawear/BFCancellationTokenSource.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		ACABE29C05F340D0B3DF17B2 /* BFExecutor.m */ = {isa = PBXFileReference; name = "BFExecutor.m"; path = "com.mbientlab.metawear/BFExecutor.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		3D85730B32444DA4B69ABFA7 /* BFTask.m */ = {isa = PBXFileReference; name = "BFTask.m"; path = "com.mbientlab.metawear/BFTask.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A65475CB5FDE4E6A8018F9A0 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; name = "BFTaskCompletionSource.m"; path = "com.mbientlab.metawear/BFTaskCompletionSource.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		B3B93ED4CB324D95A5035248 /* MWDevice.m */ = {isa = PBXFileReference; name = "MWDevice.m"; path = "com.mbientlab.metawear/MWDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		159AEC9C117C405BBBD411A1 /* MWSupportedModules.m */ = {isa = PBXFileReference; name = "MWSupportedModules.m"; path = "com.mbientlab.metawear/MWSupportedModules.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		29C927AB46C24A5092D9803B /* RSSI.m */ = {isa = PBXFileReference; name = "RSSI.m"; path = "com.mbientlab.metawear/RSSI.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		651AAC6ACECA496F8EA9D171 /* LEDModule.m */ = {isa = PBXFileReference; name = "LEDModule.m"; path = "com.mbientlab.metawear/LEDModule.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		3CAE002E16EE4BD98BE7421A /* BatteryLevel.m */ = {isa = PBXFileReference; name = "BatteryLevel.m"; path = "com.mbientlab.metawear/BatteryLevel.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		3E926218DD9C4E1291CDE079 /* MWAccelerometer.m */ = {isa = PBXFileReference; name = "MWAccelerometer.m"; path = "com.mbientlab.metawear/MWAccelerometer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		A13A692F74BD4FDB8B4E33A2 /* MWMultiChannelTemperature.m */ = {isa = PBXFileReference; name = "MWMultiChannelTemperature.m"; path = "com.mbientlab.metawear/MWMultiChannelTemperature.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		3D02CAF20C554FB5B6E5BC16 /* StepCounter.m */ = {isa = PBXFileReference; name = "StepCounter.m"; path = "com.mbientlab.metawear/StepCounter.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E2563A1E6CCF4BD692FE79D9 /* MWGyroscope.m */ = {isa = PBXFileReference; name = "MWGyroscope.m"; path = "com.mbientlab.metawear/MWGyroscope.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		24AA1F3ACD104841939146D9 /* MBLConstants.h */ = {isa = PBXFileReference; name = "MBLConstants.h"; path = "com.mbientlab.metawear/MBLConstants.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		74689DB431B04E468C136452 /* MBLMetaWear.h */ = {isa = PBXFileReference; name = "MBLMetaWear.h"; path = "com.mbientlab.metawear/MBLMetaWear.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		6F5CEA86A6FB4676899D2DF2 /* MBLMetaWearManager.h */ = {isa = PBXFileReference; name = "MBLMetaWearManager.h"; path = "com.mbientlab.metawear/MBLMetaWearManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		EE863CAEBFA540E9B120D9AC /* MBLAccelerometer.h */ = {isa = PBXFileReference; name = "MBLAccelerometer.h"; path = "com.mbientlab.metawear/MBLAccelerometer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		C92BCFB98A1D4595B87AB4A1 /* MBLAccelerometerBMI160.h */ = {isa = PBXFileReference; name = "MBLAccelerometerBMI160.h"; path = "com.mbientlab.metawear/MBLAccelerometerBMI160.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		FF81D541F1214B4A8545E5E9 /* MBLAccelerometerBosch.h */ = {isa = PBXFileReference; name = "MBLAccelerometerBosch.h"; path = "com.mbientlab.metawear/MBLAccelerometerBosch.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		C2CA507657874E9D9F4F98CB /* bmi160.h */ = {isa = PBXFileReference; name = "bmi160.h"; path = "com.mbientlab.metawear/bmi160.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		17245D09B33248299D99EACC /* MBLAccelerometerData.h */ = {isa = PBXFileReference; name = "MBLAccelerometerData.h"; path = "com.mbientlab.metawear/MBLAccelerometerData.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		1359E1EDE5BA47B799A4F1DA /* MBLGyro.h */ = {isa = PBXFileReference; name = "MBLGyro.h"; path = "com.mbientlab.metawear/MBLGyro.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D72FFDF64126460D876D7EFD /* MBLGyroData.h */ = {isa = PBXFileReference; name = "MBLGyroData.h"; path = "com.mbientlab.metawear/MBLGyroData.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		C908EEAA24F34918B96174BD /* MBLOrientationData.h */ = {isa = PBXFileReference; name = "MBLOrientationData.h"; path = "com.mbientlab.metawear/MBLOrientationData.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		184DE012EB194183995057D9 /* MBLTemperature.h */ = {isa = PBXFileReference; name = "MBLTemperature.h"; path = "com.mbientlab.metawear/MBLTemperature.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		275A0ECCD7BA46098E8380AC /* MBLExternalThermistor.h */ = {isa = PBXFileReference; name = "MBLExternalThermistor.h"; path = "com.mbientlab.metawear/MBLExternalThermistor.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		AAF2743141AB44E2B9DA9CEF /* MBLData.h */ = {isa = PBXFileReference; name = "MBLData.h"; path = "com.mbientlab.metawear/MBLData.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		98576C89940F49F79365D450 /* MBLNumericData.h */ = {isa = PBXFileReference; name = "MBLNumericData.h"; path = "com.mbientlab.metawear/MBLNumericData.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		160C7763BCDF4325B55FFF1E /* MBLDataSample.h */ = {isa = PBXFileReference; name = "MBLDataSample.h"; path = "com.mbientlab.metawear/MBLDataSample.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		7C55C3CBD7DB48838C0A597D /* MBLEvent.h */ = {isa = PBXFileReference; name = "MBLEvent.h"; path = "com.mbientlab.metawear/MBLEvent.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		334C2FABCFFF448EB2FEFAAC /* MBLRegister.h */ = {isa = PBXFileReference; name = "MBLRegister.h"; path = "com.mbientlab.metawear/MBLRegister.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		616BE3EA335A475CBAF1105E /* MBLModule.h */ = {isa = PBXFileReference; name = "MBLModule.h"; path = "com.mbientlab.metawear/MBLModule.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		AAC19F6517A544C5BA854C5A /* BFTask+MBLExtensions.h */ = {isa = PBXFileReference; name = "BFTask+MBLExtensions.h"; path = "com.mbientlab.metawear/BFTask+MBLExtensions.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		94D2E209B21145D1A8B8A284 /* MBLLED.h */ = {isa = PBXFileReference; name = "MBLLED.h"; path = "com.mbientlab.metawear/MBLLED.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		52DEB76A9BDB40F5AA1BF6E0 /* Bolts.h */ = {isa = PBXFileReference; name = "Bolts.h"; path = "com.mbientlab.metawear/Bolts.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		551B7BBD520E4480992784D6 /* BoltsVersion.h */ = {isa = PBXFileReference; name = "BoltsVersion.h"; path = "com.mbientlab.metawear/BoltsVersion.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		B29B95BADFE041D8A5C7C023 /* BFCancellationToken.h */ = {isa = PBXFileReference; name = "BFCancellationToken.h"; path = "com.mbientlab.metawear/BFCancellationToken.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		BB9054DF46CE4157B1EF1317 /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; name = "BFCancellationTokenRegistration.h"; path = "com.mbientlab.metawear/BFCancellationTokenRegistration.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		5FBAA6AA8CFC4281AB59414A /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; name = "BFCancellationTokenSource.h"; path = "com.mbientlab.metawear/BFCancellationTokenSource.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		3964E36D33194CF3A2C5953F /* BFExecutor.h */ = {isa = PBXFileReference; name = "BFExecutor.h"; path = "com.mbientlab.metawear/BFExecutor.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		7ADEEF4311934CEDA6CFEFFA /* BFTask.h */ = {isa = PBXFileReference; name = "BFTask.h"; path = "com.mbientlab.metawear/BFTask.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		B46C2E31C5B9486696390645 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; name = "BFTaskCompletionSource.h"; path = "com.mbientlab.metawear/BFTaskCompletionSource.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		D9F9ED9E4775492398A08FDB /* MWDevice.h */ = {isa = PBXFileReference; name = "MWDevice.h"; path = "com.mbientlab.metawear/MWDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		B5467C0F9BCD4211949EF719 /* MWSupportedModules.h */ = {isa = PBXFileReference; name = "MWSupportedModules.h"; path = "com.mbientlab.metawear/MWSupportedModules.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		A1CC468717574109AF495C29 /* RSSI.h */ = {isa = PBXFileReference; name = "RSSI.h"; path = "com.mbientlab.metawear/RSSI.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		49BE024D1E0948CF9746AB83 /* LEDModule.h */ = {isa = PBXFileReference; name = "LEDModule.h"; path = "com.mbientlab.metawear/LEDModule.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		AEA85FB9A6D147D89DAB08E8 /* BatteryLevel.h */ = {isa = PBXFileReference; name = "BatteryLevel.h"; path = "com.mbientlab.metawear/BatteryLevel.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		92DCF28439BE4BDC9D5F29A0 /* MWAccelerometer.h */ = {isa = PBXFileReference; name = "MWAccelerometer.h"; path = "com.mbientlab.metawear/MWAccelerometer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		0157C3EC86824345A5F5ABD2 /* MWMultiChannelTemperature.h */ = {isa = PBXFileReference; name = "MWMultiChannelTemperature.h"; path = "com.mbientlab.metawear/MWMultiChannelTemperature.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		959DCC4E03864A2FA694D772 /* StepCounter.h */ = {isa = PBXFileReference; name = "StepCounter.h"; path = "com.mbientlab.metawear/StepCounter.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		261F4500DDEC456A9429D15F /* MWGyroscope.h */ = {isa = PBXFileReference; name = "MWGyroscope.h"; path = "com.mbientlab.metawear/MWGyroscope.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		4AB687B9BB834AD9ACC763F3 /* Foundation.framework */ = {isa = PBXFileReference; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		6C059C18B70344B9B26F5D8C /* CoreData.framework */ = {isa = PBXFileReference; name = "CoreData.framework"; path = "System/Library/Frameworks/CoreData.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		926C6F1AF4914CE6853F1F72 /* EVOBLE.m */ = {isa = PBXFileReference; name = "EVOBLE.m"; path = "cordova-plugin-ble/EVOBLE.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		84EBDD0375A14563AFF675A7 /* EVOBLE.h */ = {isa = PBXFileReference; name = "EVOBLE.h"; path = "cordova-plugin-ble/EVOBLE.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		DE378928470C4C62A3F2DBE4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; name = "CoreBluetooth.framework"; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		FF81D541F1214B4A8545E5E9 /* MBLAccelerometerBosch.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MBLAccelerometerBosch.h; path = com.mbientlab.metawear/MBLAccelerometerBosch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,11 +342,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = J4QX3685J8;
+					};
+				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Meta Gnome Tag" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectReferences = (
@@ -452,6 +458,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -461,11 +469,12 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "Meta Gnome Tag/Meta Gnome Tag-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_NAME = "Meta Gnome Tag";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Meta Gnome Tag/Plugins/com.mbientlab.metawear\"",
 				);
+				PRODUCT_NAME = "Meta Gnome Tag";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -478,17 +487,20 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Meta Gnome Tag/Meta Gnome Tag-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "Meta Gnome Tag/Meta Gnome Tag-Info.plist";
-				PRODUCT_NAME = "Meta Gnome Tag";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Meta Gnome Tag/Plugins/com.mbientlab.metawear\"",
 				);
+				PRODUCT_NAME = "Meta Gnome Tag";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -513,9 +525,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Meta Gnome Tag";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				PRODUCT_NAME = "Meta Gnome Tag";
 			};
 			name = Debug;
 		};
@@ -539,9 +551,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "Meta Gnome Tag";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				PRODUCT_NAME = "Meta Gnome Tag";
 			};
 			name = Release;
 		};
@@ -557,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Meta Gnome Tag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
