@@ -18,12 +18,11 @@
     <feature name="MWDevice">
         <param name="ios-package" value="MWDevice" />
     </feature>
-    <name>HelloCordova</name>
+    <name>Meta Gnome Tag</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
-    </description>
+    Digital tag game with MetaWear    </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+        WWC Atlanta Hackathon
     </author>
     <content src="index.html" />
     <access origin="*" />
